@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Ulticast</string>
+    <string name="login_button_text">Log in</string>
+    <string name="register_button_text">Register</string>
+    <string name="signout_button_text">Sign out</string>
+    <string name="email_text">Email:</string>
+    <string name="username_text">Username:</string>
+    <string name="password_text">Password:</string>
+    <string name="auth_failed">Authentication failed.</string>
+    <string name="practicePrompt">Next Practice time:</string>
+    <string name="throwingPrompt">Next Throwing time:</string>
+    <string name="change_practice">Practice Change</string>
+    <string name="notification_title">Practice time changed.</string>
+    <string name="notification_text">The next practice has been changed.</string>
+    <string name="addUserButtonText">Add User</string>
+    <string name="name_prompt">Name:</string>
+    <string name="team_prompt">Team:</string>
+    <string name="findUserButtonText">Find</string>
+    <string name="namePrompt">Name:</string>
+
+
+    <string-array name="search_array">
+        <item>Name</item>
+        <item>Team</item>
+        <item>Tournaments</item>
+        <item>Skills</item>
+        <item>Materials</item>
+        <item>Available</item>
+    </string-array>
+
+
+    <string-array name="search_array_skills">
+        <item>Backhand</item>
+        <item>Forehand</item>
+        <item>Pull</item>
+        <item>Man-Defense</item>
+        <item>Zone-Cup</item>
+        <item>Zone-HammerStop</item>
+        <item>Zone-Deep</item>
+    </string-array>
+
+    <string-array name="search_array_tournament">
+        <item>Search Players</item>
+        <item>Search Tournament</item>
+    </string-array>
+
+
+</resources>

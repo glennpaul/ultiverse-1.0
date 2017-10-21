@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/search_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"/>
+
+    <Spinner
+        android:id="@+id/search_spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"/>
+
+    <EditText
+        android:id="@+id/etTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/findButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/findUserButtonText"/>
+
+
+    <ListView
+        android:id="@+id/sampleListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp" >
+    </ListView>
+
+</LinearLayout>

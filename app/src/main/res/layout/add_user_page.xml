@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="20dp"
+android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/addUser_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/addUserButtonText"/>
+
+
+    <TextView
+        android:id="@+id/name_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:inputType="text"
+        android:text="@string/name_prompt"/>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/team_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:inputType="text"
+        android:text="@string/team_prompt"/>
+
+    <EditText
+        android:id="@+id/team_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+</LinearLayout>

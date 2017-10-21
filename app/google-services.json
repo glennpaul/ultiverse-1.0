@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "65258459749",
+    "firebase_url": "https://ulticast-bec5f.firebaseio.com",
+    "project_id": "ulticast-bec5f",
+    "storage_bucket": "ulticast-bec5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65258459749:android:28fe1ae95a94487b",
+        "android_client_info": {
+          "package_name": "com.example.paul.ulticast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65258459749-kgs9n2j5bpdalv4bi6rugv08bi9scv2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paul.ulticast",
+            "certificate_hash": "67ef676f254f5b0cbebe87444a4fdc1acffc5ac0"
+          }
+        },
+        {
+          "client_id": "65258459749-qn1pj6pcpbmlosgt3rfdgsv4emufrai3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo3WAdZKs_rjJBrqOx0kxvAcCe1wKBlro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65258459749-qn1pj6pcpbmlosgt3rfdgsv4emufrai3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

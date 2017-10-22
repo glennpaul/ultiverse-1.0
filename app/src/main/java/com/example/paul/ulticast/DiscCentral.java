@@ -1,13 +1,9 @@
 package com.example.paul.ulticast;
 
-import android.app.Notification;
-import android.app.NotificationManager;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -153,20 +149,20 @@ public class DiscCentral extends AppCompatActivity{
         }
     }
 
-    //function to generate notification when practice has changed  *NOT BEING USED RIGHT NOW
-    public void showNotification(String old_text, String new_text) {
-        //PendingIntent pi = PendingIntent.getActivity(this, 0, new Intent(this, DiscCentral.class), 0); //sets up a pending intent,
-        //use when you want to start new activity for when the notification is called
-        Resources r = getResources();
-        Notification notification = new NotificationCompat.Builder(this)
-                .setTicker(r.getString(R.string.notification_title))
-                .setSmallIcon(android.R.drawable.ic_menu_report_image)
-                .setContentTitle(r.getString(R.string.notification_title))
-                .setContentText("Change. From: " + old_text + " To: " + new_text)
-                //.setContentIntent(pi)
-                .setAutoCancel(true)
-                .build();
-        NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        notificationManager.notify(0, notification);
-    }
+//    //function to generate notification when practice has changed  *NOT BEING USED RIGHT NOW
+//    public void showNotification(String old_text, String new_text) {
+//        //PendingIntent pi = PendingIntent.getActivity(this, 0, new Intent(this, DiscCentral.class), 0); //sets up a pending intent,
+//        //use when you want to start new activity for when the notification is called
+//        Resources r = getResources();
+//        Notification notification = new NotificationCompat.Builder(this)
+//                .setTicker(r.getString(R.string.notification_title))
+//                .setSmallIcon(android.R.drawable.ic_menu_report_image)
+//                .setContentTitle(r.getString(R.string.notification_title))
+//                .setContentText("Change. From: " + old_text + " To: " + new_text)
+//                //.setContentIntent(pi)
+//                .setAutoCancel(true)
+//                .build();
+//        NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+//        notificationManager.notify(0, notification);
+//    }
 }
